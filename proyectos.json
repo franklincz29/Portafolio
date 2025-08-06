@@ -1,0 +1,84 @@
+﻿[
+  {
+    "titulo": "Busqueda de persona Core",
+    "descripcion": "Este proyecto de ASP.NET CORE MVC se conecta a una base de datos remota de SQL Server y ejecuta un procedimiento almacenado que recibe como parámetro un número de cédula. Como resultado, retorna los datos personales correspondientes: nombre, apellidos y fecha de nacimiento.\nLa ejecución del procedimiento puede realizarse mediante dos enfoques:\n- Utilizando LINQ.\n- Utilizando SqlCommand con SqlDataReader.\nPara enviar los datos desde la vista al controlador se emplea AJAX, lo que permite evitar recargas de página (postback).\nLa respuesta del servidor se devuelve en formato JSON, que luego es procesado y mostrado dinámicamente en la interfaz.",
+    "tecnologias": "ASP.NET Core MVC, Entity Framework, SQL Server, Bootstrap, HTML",
+    "link": "https://buscapersonacore.onrender.com/",
+    "imagenUrl": "images/buscapersonacore.jpg",
+        "credenciales": [
+    		{"numeroidentificacion": "0100010693"},
+    		{"numeroidentificacion": "0100010694"},
+    		{"numeroidentificacion": "0100010695"},
+    		{"numeroidentificacion": "0100010696"}
+    	]
+  },
+  {
+    "titulo": "Busqueda de persona .net framework",
+    "descripcion": "Este proyecto de ASP.NET Framework MVC se conecta a una base de datos remota de SQL Server y ejecuta un procedimiento almacenado que recibe como parámetro un número de cédula. Como resultado, retorna los datos personales correspondientes: nombre, apellidos y fecha de nacimiento.\nLa ejecución del procedimiento puede realizarse mediante dos enfoques:\n- Utilizando LINQ.\n- Utilizando SqlCommand con SqlDataReader.\nPara enviar los datos desde la vista al controlador se emplea AJAX, lo que permite evitar recargas de página (postback).\nLa respuesta del servidor se devuelve en formato JSON, que luego es procesado y mostrado dinámicamente en la interfaz.",
+    "tecnologias": "ASP.NET Framework MVC, Entity Framework, SQL Server, Bootstrap, HTML",
+    "link": "https://fdjcz.bsite.net/",
+    "imagenUrl": "images/buscapersonanetframework.jpg",
+    "credenciales": [
+    		{"numeroidentificacion": "0100010693"},
+    		{"numeroidentificacion": "0100010694"},
+    		{"numeroidentificacion": "0100010695"},
+    		{"numeroidentificacion": "0100010696"}
+    	]
+  },
+    {
+    "titulo": "Demo estático de páginas de HTML",
+    "descripcion": "Este proyecto representa un portafolio estático simulado, diseñado para exhibir diferentes estilos y estructuras de sitios web que podrían ser implementados para clientes potenciales.\n\nSu propósito es demostrar variedad en diseño visual y adaptabilidad según el tipo de negocio o requerimiento.\n\nUtiliza tecnologías como HTML, CSS, Bootstrap y JavaScript para construir interfaces modernas, responsivas y atractivas.",
+    "tecnologias": "ASP.NET Core MVC, Entity Framework, HTML, JavaScript, Bootstrap",
+    "imagenUrl": "images/demostatichtml.jpg",
+    "link": "https://demostatichtml.onrender.com/"
+  },
+  {
+    "titulo": "Demo SIAL estático con GrapesJS + Tailwind",
+    "descripcion": "Este proyecto es una demostración simulada del sistema informático S.I.A.L. Su propósito es mostrar una interfaz funcional que incluye:\n\n- Un índice con distintas oportunidades laborales, las cuales pueden visualizarse en detalle.\n- Un listado de candidatos que ofrecen sus servicios, también con vistas detalladas.\n- Formularios simulados de registro y login con validación básica.\n- Simulación de inicio de sesión para representar la experiencia de usuario autenticado.\n- Páginas adicionales de información general y contacto.\n\nEstá desarrollado con tecnologías como Tailwind CSS, CraveJS, HTML y JavaScript, enfocándose en la presentación visual y experiencia de usuario.",
+    "tecnologias": "JavaScript, HTML, Tailwind, GrapesJS",
+    "imagenUrl": "images/GrapesJSTailWindSialDemo.jpg",
+    "link": "https://franklincz29.github.io/GrapesJSTailWindSialDemo/"
+  },
+    {
+    "titulo": "Demo Centro Educativo",
+    "descripcion": "Este proyecto es una demostración funcional de un sistema de gestión de expedientes para un centro educativo. Incluye las funcionalidades esenciales de:\n\n- Registro de usuarios.\n- Inicio de sesión con validación.\n- Visualización y administración de expedientes académicos.\n- Operaciones CRUD completas sobre las entidades relacionadas a los expedientes.\n\nLa solución está desarrollada con C# y ASP.NET Core, y utiliza CSS con Bootstrap para el diseño visual. Originalmente respaldado por una base de datos en SQL Server, el proyecto fue migrado a PostgreSQL y desplegado en Render.com, tanto para la lógica del backend como para el hosting de la base de datos.",
+    "tecnologias": "ASP.NET Core MVC, Entity Framework, SQL Server, PostgreSQL, Bootstrap, HttpSession",
+    "link": "https://centroeducativodemo.onrender.com",
+    "imagenUrl": "images/centroeducativodemo.jpg",
+           "credenciales": [
+    		{"usuario": "usuario1@mail.com","contrasena": "1234"},
+    		{"usuario": "usuario2@mail.com","contrasena": "1234"}
+    		] 
+  },
+  {
+    "titulo": "Demo S.I.A.L.",
+    "descripcion": "Este proyecto representa una versión avanzada del sistema de demostración anterior, incrementando progresivamente su complejidad funcional. Se trata de un demo del sistema S.I.A.L., que incluye una arquitectura basada en roles con funcionalidades diferenciadas para usuarios tipo Candidato y Administradores.\n\n- Candidatos pueden:\n  - Registrarse e iniciar sesión.\n  - Registrar sus estudios y carreras cursadas.\n  - Visualizar vacantes disponibles y postularse.\n  - Consultar el historial de sus postulaciones.\n\n- Administradores tienen acceso a:\n  - Gestión completa de entidades como empresas, carreras y vacantes.\n  - Visualización de postulaciones por vacante.\n  - Detalles del perfil académico de cada candidato.\n  - Mantenimiento general del sistema.\n\nAmbos roles pueden editar sus perfiles.\n\nEl proyecto fue desarrollado con ASP.NET Core y utiliza PostgreSQL como base de datos. El código fuente está disponible en GitHub y fue gestionado con el sistema de control de versiones Git.",
+    "tecnologias": "ASP.NET Core MVC, Entity Framework, PostgreSQL, Bootstrap, Identity",
+    "link": "https://sial-demo.onrender.com/",
+    "imagenUrl": "images/sial-demo.jpg",
+        "credenciales": [{"usuario": "admin@sigal.com","contrasena": "Admin123!"},
+    				   {"usuario": "candidato1@mail.com","contrasena": "123456"},
+    		              {"usuario": "candidato2@mail.com","contrasena": "123456"}]
+  },
+    {
+    "titulo": "Demo Administrador de Tareas",
+    "descripcion": "Esta aplicación fue desarrollada como una herramienta de gestión de tareas personalizada para Franklin Cerdas Zúñiga, estudiante de la carrera de Ingeniería en Software en la Universidad Técnica Nacional. Su propósito principal es facilitar un registro dinámico y comprensible de sus actividades académicas y personales.\n\nNota: Esta aplicación fue creada únicamente con fines personales y no está destinada para otros usos.",
+    "tecnologias": "ASP.NET Core MVC, Entity Framework, SQL Server, Bootstrap, Identity, Brevo",
+    "link": "https://administradordetareasdemo.onrender.com/",
+    "imagenUrl": "images/administradordetareasdemo.jpg",
+        "credenciales": [{"usuario": "fscerdas@est.utn.ac.cr","contrasena": "123456"}]
+  },
+  {
+    "titulo": "Demo Biblioteca Escolar",
+    "descripcion": "Este proyecto es un demo funcional de un sistema de gestión para la biblioteca de un centro educativo. Implementa funcionalidades clave como registro de usuarios, validación de correo electrónico mediante sesiones HTTP, y gestión de préstamos de libros.\n\nFue desarrollado con C# y ASP.NET Core, utilizando una base de datos MySQL alojada en freesqldatabase.com, y desplegado en Render.com. Se emplea Bootstrap CSS para el diseño responsivo de la interfaz.\n\nAdemás, permite registrar libros, materias y usuarios. Los bibliotecarios pueden gestionar préstamos para cualquier usuario, mientras que los alumnos y profesores solo pueden gestionar sus propios préstamos. También incorpora el envío de correos electrónicos para verificación de cuenta y recordatorios de vencimiento de préstamos con dos días de antelación.\n\nEste proyecto representa una evolución en complejidad respecto a los anteriores dentro del portafolio.",
+    "tecnologias": "ASP.NET Core MVC, Entity Framework, MySQL, Bootstrap, HttpSession, Brevo",
+    "link": "https://bibliotecaescolar-myaj.onrender.com/",
+    "imagenUrl": "images/bibliotecaescolar.jpg",
+    "credenciales": [
+    		{"usuario": "fscerdas@est.utn.ac.cr","contrasena": "111111"},
+    		{"usuario": "user1@mail.com","contrasena": "111111"},
+    		{"usuario": "user2@mail.com","contrasena": "111111"},
+    		{"usuario": "user3@mail.com","contrasena": "111111"}
+    ]
+  }
+]

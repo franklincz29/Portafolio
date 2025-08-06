@@ -1,0 +1,20 @@
+{
+  "LenguajesYFrameworks": [
+    { "nombre": "C#", "icono": "bi bi-code-slash" },
+    { "nombre": "ASP.NET Core", "icono": "bi bi-globe" },
+    { "nombre": "ASP.NET Framework", "icono": "bi bi-globe2" },
+    { "nombre": "Blazor", "icono": "bi bi-box-seam" },
+    { "nombre": "JavaScript", "icono": "bi bi-filetype-js" },
+    { "nombre": "HTML", "icono": "bi bi-filetype-html" },
+    { "nombre": "CSS", "icono": "bi bi-filetype-css" }
+  ],
+  "BasesDeDatos": [
+    { "nombre": "SQL Server", "icono": "bi bi-database-fill" },
+    { "nombre": "MySQL", "icono": "bi bi-database-fill-gear" },
+    { "nombre": "PostgreSQL", "icono": "bi bi-database-check" }
+  ],
+  "HerramientasDeEstilo": [
+    { "nombre": "Bootstrap", "icono": "bi bi-bootstrap-fill" },
+    { "nombre": "Tailwind", "icono": "bi bi-palette-fill" }
+  ]
+}
